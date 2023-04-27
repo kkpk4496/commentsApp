@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  width: 100vw;
+}
+.comment-container {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid;
+  padding-bottom: 20px;
+  border-color: #dee0e3;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.imageContainer {
+  width: 50vw;
+}
+.comment-title {
+  font-size: #1e293b;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 50px;
+}
+.comment-para {
+  font-family: roboto;
+  font-size: 16px;
+  color: #475569;
+}
+.inputs {
+  width: 360px;
+  height: 30px;
+  font-family: roboto;
+  font-size: 14px;
+}
+.inputs1 {
+  height: 150px;
+  margin-top: 20px;
+}
+button {
+  width: 150px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-family: roboto;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.image {
+  margin-top: 110px;
+  width: 500px;
+}
+.span {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 2px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 4px;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 5px;
+  font-family: roboto;
+}
+p {
+  font-family: roboto;
+}
